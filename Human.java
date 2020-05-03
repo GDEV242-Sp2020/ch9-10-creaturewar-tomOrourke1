@@ -24,15 +24,6 @@ public class Human extends Creature
         );
         
     }
-    public Human(int iHp, int iStr)
-    {
-        super(
-            StatConstraint.inHp(iHp,MAX_HUMAN_HP,MIN_HUMAN_HP),
-            StatConstraint.inStr(iStr,MAX_HUMAN_STR, MIN_HUMAN_STR)
-        );       
-    }
-    public void printMe()
-    {
-        System.out.println(super.damage());
-    }
+
+
 }

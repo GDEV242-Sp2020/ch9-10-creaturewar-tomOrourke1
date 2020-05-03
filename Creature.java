@@ -5,11 +5,11 @@ import java.util.Random;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Creature
+public abstract class Creature
 {
-   private int str;
-   private int max_hp;
-   private int hp;
+   protected int str;
+   protected int max_hp;
+   protected int hp;
    
    private Random rand = new Random();
    
